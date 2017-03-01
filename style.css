@@ -40,7 +40,7 @@ p, #excuses{
   top: 30px;
   left: 25px;
   font-family: 'Amatic SC', monospace;
-  font-size: 40px;
+  font-size: 50px;
   color: #090;
 }
 
@@ -51,6 +51,6 @@ p, #excuses{
   font-family: monospace;
   font-size: 12px;
   color: grey;
-  margin-top:95px;
+  margin-top:85px;
   text-decoration : none;
 }
