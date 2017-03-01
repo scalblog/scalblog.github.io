@@ -41,7 +41,7 @@ p, #excuses{
   left: 25px;
   font-family: 'Amatic SC', monospace;
   font-size: 40px;
-  color: #009;
+  color: #090;
 }
 
 #license{
@@ -52,4 +52,5 @@ p, #excuses{
   font-size: 12px;
   color: grey;
   margin-top:95px;
+  text-decoration : none;
 }
