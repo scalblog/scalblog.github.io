@@ -22,7 +22,7 @@ function Excuse() {
 	var did = ate[Math.round(Math.random()*(ate.length-1))];
 	var what = myHomework[Math.round(Math.random()*(myHomework.length-1))];
   
-  document.getElementById('excuses').innerHTML = '<div>En fait... c\'est votre ' + who + ' qui ' + did + '<br> votre ' + what + '.</div>'
+  document.getElementById('excuses').innerHTML = '<div>En fait... c\'est votre ' + who + '<br>qui ' + did + '<br>votre ' + what + '.</div>'
 	
 }
 
