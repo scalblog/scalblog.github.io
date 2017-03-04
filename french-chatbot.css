@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-family:'Russo One', sans-serif;
-  font-size: 64px;
+  font-size: 34px;
   margin-left: 25px;
   color: lime;
 }
@@ -40,8 +40,8 @@ p, #excuses, #manipulation{
   top: 30px;
   left: 25px;
   font-family: 'Amatic SC', monospace;
-  font-size: 26px;
-  color: #009;
+  font-size: 20px;
+  color: #77B5FE;
 }
 
 #license{
