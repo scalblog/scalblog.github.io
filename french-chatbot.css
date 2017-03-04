@@ -41,7 +41,7 @@ p, #excuses, #manipulation{
   left: 25px;
   font-family: 'Amatic SC', monospace;
   font-size: 20px;
-  color: #2C75FF;
+  color: #6B0D0D;
 }
 
 #license{
@@ -58,4 +58,5 @@ p, #excuses, #manipulation{
   background-color : rgba(100,100,100,0.4);
   width : 750px;
   padding-left : 30px;
+  min-height: 600px;
 }
