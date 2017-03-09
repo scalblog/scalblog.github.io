@@ -1,22 +1,22 @@
 body {
-  background-image: url('crumpled-paper.jpg');
+  background-image: url('crumpled_paper.jpg');
   background-size: cover;
   background-repeat: none;
 }
 
 h1 {
   font-family:'Russo One', sans-serif;
-  font-size: 35px;
+  font-size: 34px;
   margin-left: 25px;
   color: #4e4e55;
 }
 
-button {
+input {
   margin-left: 25px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 6px;
-  font-family: 'Russo One', sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   color: #4e4e55;
   text-decoration: none;
@@ -24,7 +24,7 @@ button {
   background-color: #ddd;
   border: 3px solid #555;
   height: 60px;
-  width: 350px;
+  width: 300px;
 }
 
 button:hover{
@@ -35,26 +35,11 @@ a{
   color: #000;
 }
 
-p, #excuses{
+p, #excuse{
   position: relative;
   top: 30px;
   left: 25px;
   font-family: 'Amatic SC', monospace;
-  font-size: 50px;
-  color: #090;
-}
-
-#license{
-  /*position: absolute;*/
-  bottom: 25px;
-  left: 25px;
-  font-family: monospace;
-  font-size: 12px;
-  color: grey;
-  margin-top:85px;
-}
-
-#license a{
-  text-decoration : none;
-  color: grey;
+  font-size: 20px;
+  color: #009;
 }
