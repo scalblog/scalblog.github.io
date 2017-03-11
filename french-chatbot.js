@@ -14,15 +14,14 @@ document.getElementById('manipulation').innerHTML = '<div>Allez-y -> ' + faites 
 
 function Excuse() {
 	
-	var myDog = ['chien', 'chat', 'théorie sur pythagore', 'version de Windows', 'iguane', 'navigateur pas vraiment à jour', 'avatar', 'voisin', 'complot autour de  Matrix','artefact', 'double maléfique', 'poisson rouge', 'historique dans Google'];
-	var ate = ['avait écrasé', 'avait remplacé', 'avait effacé', 'avait maladroitement emdommagé', 'a détruit', 'a modifié irrémédiablement', 'avait inversé les données', 'a recyclé', 'avait inteverti deux paramètres dans', 'a recalculé', 'avait reparamétré', 'avait remis à jour', 'a abandonné', 'avait plagié', 'avait isolé', 'avait volé', 'avait trié aléatoirement', 'avait renversé de l\'eau sur', 'avait perdu', 'avait mal interprété', 'avait incinéré', 'avait fait du tri sélectif sur', 'avait caché', 'avait reparamétré', 'avait mis de côté', 'avait mis sur eBay', 'avait ajouté en favori sur Facebook', 'avait mis sur SnapChat', 'avait mis sur Youtube', 'a bu pendant que vous bossiez sur', 'n\'a pas liké', 'avait acheté sur Amazon'];
-	var myHomework = ['projet', 'navigateur', 'travail', 'session', 'fichier Excel', 'document Word', 'fichier de démarrage', 'base de données', 'tentative de connexion', 'blog', 'dossier', 'carte mémoire', 'rêve d\'un monde meilleur', 'fichier dans le Cloud'];
+	var fautif = ['chien', 'chat', 'théorie sur pythagore', 'version de Windows', 'iguane', 'navigateur pas vraiment à jour', 'avatar', 'voisin', 'complot autour de  Matrix','artefact', 'double maléfique', 'poisson rouge', 'historique dans Google'];
+	var deteriore = ['avait écrasé', 'avait remplacé', 'avait effacé', 'avait altéré', 'a détruit', 'a modifié irrémédiablement', 'avait inversé les données', 'a recyclé', 'avait interverti deux paramètres dans', 'a recalculé', 'avait reparamétré', 'avait remis à jour', 'a abandonné', 'avait plagié', 'avait isolé', 'avait volé', 'avait trié aléatoirement', 'avait renversé de l\'eau sur', 'avait perdu', 'avait mal interprété', 'avait incinéré', 'avait fait du tri sélectif sur', 'avait caché', 'avait reparamétré', 'avait mis de côté', 'avait mis sur eBay', 'avait ajouté en favori sur Facebook', 'avait mis sur SnapChat', 'avait mis sur Youtube', 'a bu pendant que vous bossiez sur', 'n\'a pas liké', 'avait acheté sur Amazon'];
+	var ordi = ['projet', 'navigateur', 'travail', 'session', 'fichier Excel', 'document Word', 'fichier de démarrage', 'base de données', 'tentative de connexion', 'blog', 'dossier', 'carte mémoire', 'rêve d\'un monde meilleur', 'fichier dans le Cloud'];
 	
-	var who = myDog[Math.round(Math.random()*(myDog.length-1))];
-	var did = ate[Math.round(Math.random()*(ate.length-1))];
-	var what = myHomework[Math.round(Math.random()*(myHomework.length-1))];
+	var who = fautif[Math.round(Math.random()*(fautif.length-1))];
+	var did = deteriore[Math.round(Math.random()*(deteriore.length-1))];
+	var what = ordi[Math.round(Math.random()*(ordi.length-1))];
   
-  document.getElementById('excuses').innerHTML = '<div>En fait, c\'est votre ' + who + '<br>qui ' + did + '<br>votre ' + what + '.</div>'
-	
+  document.getElementById('excuses').innerHTML = '<div>En fait... c\'est votre ' + who + ' qui ' + did + '<br> votre ' + what + '.</div>'
 }
 
