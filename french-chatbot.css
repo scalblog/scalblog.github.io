@@ -60,3 +60,7 @@ p, #excuses, #manipulation{
   padding-left : 30px;
   min-height: 600px;
 }
+
+span {
+  font-style : italic; 
+}
